@@ -1,4 +1,4 @@
-# 🚀 Proyecto MVT - Blog Funcional
+Proyecto Blog
 
 ## Nombre del Estudiante: [Natalia Salguero]
 
@@ -6,7 +6,7 @@
 Este es un proyecto de desarrollo web basado en el framework **Django**, siguiendo la arquitectura **Modelo-Vista-Template (MVT)**. El objetivo fue implementar un sistema de blog básico capaz de manejar la carga de datos y realizar búsquedas.
 
 ### Estructura del Modelo (Base de Datos)
-El proyecto utiliza la aplicación `blog` y define tres modelos principales, siguiendo las directivas del ejercicio:
+El proyecto utiliza la aplicación `blog` y define tres modelos principales, siguiendo las instrucciones del ejercicio:
 
 1.  **Autor:** (Campos: `nombre`, `apellido`, `email`).
 2.  **Categoria:** (Campo: `nombre`).
