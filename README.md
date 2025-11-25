@@ -1,6 +1,6 @@
 Proyecto Blog
 
-## Nombre del Estudiante: Natalia Salguero
+## Nombre: Natalia Salguero
 
 ### Descripción del Proyecto
 Este es un proyecto de desarrollo web basado en el framework **Django**, siguiendo la arquitectura **Modelo-Vista-Template (MVT)**. El objetivo fue implementar un sistema de blog básico capaz de manejar la carga de datos y realizar búsquedas.
