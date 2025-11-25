@@ -60,3 +60,10 @@ def busqueda_post(request):
             resultados = Post.objects.filter(titulo__icontains=termino)
             
     return render(request, 'blog/busqueda.html', {'form': form, 'resultados': resultados, 'termino': termino})
+# 4. Vista de Listado
+def listar_posts(request):
+    # Obtiene TODOS los objetos (registros) del modelo Post
+    posts = Post.objects.all()
+    
+    # Envía la lista de posts al template 'listar_posts.html'
+    return render(request, 'blog/listar_posts.html', {'posts': posts})
